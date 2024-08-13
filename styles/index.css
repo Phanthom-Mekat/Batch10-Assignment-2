@@ -523,7 +523,7 @@ hr{
     font-size: 1.5rem;
     font-weight: 900;
     text-align: center;
-    
+    filter: drop-shadow(10px 10px 5px hwb(0 13% 87% / 0.447))
 }
 .membership-title h1{
     color: rgb(255, 255, 255);
