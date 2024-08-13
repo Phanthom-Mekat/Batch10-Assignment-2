@@ -508,6 +508,54 @@ hr{
     padding: 20px;
 }
 
+
+/* membership style  */
+.membership{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #5a6c3b;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+.membership-title h3{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.membership-title h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+}
+.membership-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 20px;
+}
+.membership-card{
+    width: 85%;
+    height: 380px;
+    border-radius: 18px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+.membership-card p{
+    color: rgba(23, 40, 25, 0.697);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
 /* styles for small device */
 
 @media screen and (max-width:576px) {
@@ -529,7 +577,7 @@ hr{
     .display{
         display: contents;
     }
-    .banner,.footer{
+    .banner,.footer,.membership-cards{
         flex-direction: column;
     }
     .video-tutorial-div-info{
